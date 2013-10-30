@@ -10,7 +10,7 @@ public class Axis {
 	public Axis() {
 	}
 
-	public JSObject toJS(JavascriptContext c) {
+	public org.json.me.JSONObject toJS(Object c) {
 	}
 
 	public Axis show(Boolean show) {
