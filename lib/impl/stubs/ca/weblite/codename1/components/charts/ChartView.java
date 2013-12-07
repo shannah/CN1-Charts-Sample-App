@@ -10,10 +10,25 @@ public class ChartView extends com.codename1.ui.Container {
 	public ChartView(Chart model) {
 	}
 
+	public ChartView(String jsChartConfig, String jsOptionsConfig) {
+	}
+
 	public void setChartModel(Chart model) {
 	}
 
 	public Chart getChartModel() {
+	}
+
+	public void addChartListener(event.ChartListener l) {
+	}
+
+	public void removeChartListener(event.ChartListener l) {
+	}
+
+	protected void firePlotHovered(event.ChartEvent evt) {
+	}
+
+	protected void firePlotClicked(event.ChartEvent evt) {
 	}
 
 	public void initLater(Runnable afterInit) {
