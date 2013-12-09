@@ -105,4 +105,16 @@ public class ChartEvent {
 	 */
 	public void setSource(ca.weblite.codename1.components.charts.ChartView source) {
 	}
+
+	/**
+	 *  @return the percent
+	 */
+	public double getPercent() {
+	}
+
+	/**
+	 *  @param percent the percent to set
+	 */
+	public void setPercent(double percent) {
+	}
 }

@@ -204,7 +204,9 @@ public class MyApplication {
                 Log.p(evt.getSeries().color().stringVal());
                 Log.p(evt.getDataPoint().toString());
                 Log.p(evt.getSeriesIndex()+"");
-                
+                Log.p("Num axis points: "+evt.getAxisPoints().size());
+                Log.p("POint 1: "+evt.getAxisPoints().get(0).x);
+                Log.p("Percent is : "+evt.getPercent());
                 Dialog.show("Clicked "+evt.getSeries().label(), "Color: "+evt.getSeries().color().stringVal(), "OK", "Cancel");
                 
             }
